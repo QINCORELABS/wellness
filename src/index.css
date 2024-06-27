@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.intro{
+    background-image: url("./assets/introbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.client-card{
+    position: relative;
+}
+.image-box{
+    position: absolute;
+    top: -75px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
