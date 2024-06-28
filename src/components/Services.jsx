@@ -21,7 +21,7 @@ function Services() {
             <div className="col-lg 4">
                 <div className="row mb-3">
                     <div className="col-md-3"></div>
-                    <div className="col-md-9">
+                    <div className="col-md-9 d-flex justify-content-end align-items-end">
                     <img className='img-fluid' src={serv1} alt="" />
                     </div>
                    

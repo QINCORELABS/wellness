@@ -4,7 +4,7 @@ import introdoc from "../assets/introdoc.png"
 function Intro() {
   return (
     <>
-    <div  className="container-fluid intro">
+    <div id='intro-section' className="container-fluid intro">
        <div className="row">
         <div className="col-lg-6 d-flex flex-column justify-content-center p-5">
           <h1 style={{color:"#79B142",fontSize:"60px"}} className='fw-bold'>We Provide</h1>

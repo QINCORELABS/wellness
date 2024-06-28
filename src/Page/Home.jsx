@@ -8,6 +8,7 @@ import Docs from '../components/Docs'
 import Query from '../components/Query'
 import Footer from '../components/Footer'
 
+
 function Home() {
   return (
     <>
@@ -17,6 +18,7 @@ function Home() {
     <Services/>
     <Clients/>
     <Docs/>
+  
     <Query/>
   <Footer/>
     </>

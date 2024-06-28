@@ -3,7 +3,7 @@ import plus from "../assets/plus.png"
 function Footer() {
   return (
     <>
-    <div className="container-fluid mt-5">
+    <div id='contact' className="container-fluid mt-5 p-5">
         <div className="row">
             <div className="col-lg-4">
                 <div className="d-flex gap-3 align-items-center mb-3">
@@ -14,10 +14,10 @@ function Footer() {
             </div>
             <div className="col-lg-4 d-flex flex-column align-items-center">
             <span style={{color:"#79B142"}} className='mb-5'>Quick Menu</span>
-            <a href="" style={{textDecoration:"none",color:"black"}}> Home</a>
-            <a href="" style={{textDecoration:"none",color:"black"}}> About</a>
-            <a href="" style={{textDecoration:"none",color:"black"}}> Our Team</a>
-            <a href="" style={{textDecoration:"none",color:"black"}}> Booking</a>
+            <a href="#intro-section" style={{textDecoration:"none",color:"black"}}> Home</a>
+            <a href="#about" style={{textDecoration:"none",color:"black"}}> About</a>
+            <a href="#team" style={{textDecoration:"none",color:"black"}}> Our Team</a>
+            <a href="#book" style={{textDecoration:"none",color:"black"}}> Booking</a>
             </div>
             <div className="col-lg-4 d-flex flex-column align-items-center">
             <span style={{color:"#79B142"}} className='mb-5'>Contact Us</span>

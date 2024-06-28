@@ -3,7 +3,7 @@ import Qry from "../assets/query.png"
 function Query() {
   return (
     <>
-    <div style={{backgroundColor:"#C1FFF8"}} className="container-fluid p-5">
+    <div id='book' style={{backgroundColor:"#C1FFF8"}} className="container-fluid p-5">
         <div className="row">
             <div className="col-lg-6 d-flex align-items-center justify-content-center">
                <img width={"50%"} src={Qry} alt="" />

@@ -10,7 +10,7 @@ function Clients() {
       <h2 className='fw-bolder text-center mb-5' >Clients Feedback</h2>
        <div className="row d-flex">
           <div className="col-lg-6 mt-5">
-            <div style={{width:"80%",backgroundColor:"#fff"}} className="container text-center client-card p-5">
+            <div style={{width:"80%",backgroundColor:"#fff"}} className="container text-center client-card mb-5 p-5">
                   <div style={{width:"150px",height:"150px"}} className="image-box rounded-circle">
                     <img className='img-fluid ' src={cli1} alt="" />
                   </div>
