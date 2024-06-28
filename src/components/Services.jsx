@@ -8,7 +8,7 @@ import serv5 from "../assets/ser5.png"
 function Services() {
   return (
     <>
-    <div className="container-fluid p-3">
+    <div className="container-fluid p-5">
         <div className="row ">
             <div className="col-lg-5 d-flex justify-content-center align-items-center">
                <div >
