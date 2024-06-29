@@ -8,7 +8,7 @@ function Query() {
             <div className="col-lg-6 d-flex align-items-center justify-content-center mb-4">
                <img width={"45%"} src={Qry} alt="" />
             </div>
-            <div className="col-lg-6 d-flex align-items-center justify-content-center">
+            <div className="col-lg-6 d-flex align-items-center justify-content-center p-5">
                 <div>
                     <h1 className='mb-2'>Quick Enquery</h1>
                     <input type="text" className='p-1 w-100 border-black border-2 border-top-0 border-end-0 border-start-0 mb-2 bg-transparent' placeholder='Your Name' />
