@@ -2,13 +2,16 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import logo from "../assets/logo.png"
+import logo1 from "../assets/logo1.png"
 function Header() {
   return (
     <>
-     <Navbar expand="lg" className="bg-body-tertiary p-3">
+     <Navbar expand="lg" className="bg-body-tertiary p-1">
       <Container>
-        <div style={{backgroundColor:"#49835E",width:"55px",height:"55px"}} className='rounded-circle text-center d-flex align-items-center justify-content-center'>
-          <span className='text-light'>Demo</span>
+        <div  className='ms-5 text-center d-flex align-items-center justify-content-center'>
+         <div className='logo-part1'> <img width={"75px"} height={"65px"} className='logo' src={logo} alt="" /></div>
+          <div className='p-1'><img height={"106px"} src={logo1} alt="" /></div>
         </div>
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <Navbar.Collapse id="basic-navbar-nav">

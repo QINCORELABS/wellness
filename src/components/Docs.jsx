@@ -5,39 +5,31 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination,Autoplay } from 'swiper/modules';
 
-import doc1 from "../assets/doc1.webp"
-import doc2 from "../assets/doc2.jpg"
-import doc3 from "../assets/doc3.jpg"
-import doc4 from "../assets/doc4.jpg"
-import doc5 from "../assets/doc5.webp"
-import doc6 from "../assets/doc6.jpg"
+import doc1 from "../assets/Doctors/doc1.png"
+import doc2 from "../assets/Doctors/doc2.png"
+import doc3 from "../assets/Doctors/doc3.png"
+
 function Docs() {
     
     const docs = [
      {
-        name:"doc1",
-        img:doc1
+        name:"Ashbin Philip",
+        img:doc1,
+        description:"Mental Health Counsellor (MSW in medical and psychiatry )"
      }, 
      {
-        name:"doc2",
-        img:doc2
+        name:"Dr .Gadha",
+        img:doc2,
+        description:"Consultant Psychologist and Clinical Hypnotherapist"
+ 
      }, 
      {
-        name:"doc3",
-        img:doc3
-     }, 
-     {
-        name:"doc4",
-        img:doc4
-     }, 
-     {
-        name:"doc5",
-        img:doc5
-     }, 
-     {
-        name:"doc6",
-        img:doc6
-     },   
+        name:"Rhea Reez",
+        img:doc3,
+       description:"Consultant Psychologist ( MA in Clinical Psychology )"
+
+ 
+     }  
     ]
 
 
@@ -67,9 +59,12 @@ function Docs() {
            className="mySwiper"
          >{docs.map(doc=>(
             <SwiperSlide key={doc.name}>
-            <div className='text-center'>
-               <img className='mb-2' width={"250px"} height={"360"}  he  src={doc.img} />
-               <span className='fw-bold'>{doc.name}</span>
+            <div className='d-flex flex-column align-items-center'>
+               <img className='mb-2'  style={{width:"275px"}} height={"370px"}  src={doc.img} />
+              <div className='text-center p-4 pt-0 pb-0'>
+                  <span className='fw-bold'>{doc.name}</span>
+                  <p style={{color:"#000",fontSize:"15px"}} className=''>{doc.description}</p>
+              </div>
             </div>
           </SwiperSlide>
          ))}

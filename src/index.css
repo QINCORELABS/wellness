@@ -2,12 +2,35 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+  scroll-behavior: smooth;
 }
 .intro{
     background-image: url("./assets/introbg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.logo-part1{
+  position: relative;
+}
+.logo{
+  position: absolute;
+  top: 55%;
+  left: -52px;
+  transform: translatey(-60%);
+}
+.service-box{
+  position: relative;
+}
+.serv-img{
+  position: absolute;
+top: 20%;
+left: 50%;
+transform: translateX(-50%);
+
 }
 .client-card{
     position: relative;
@@ -28,7 +51,7 @@
     background-position: center;
     background-size: cover;
     width: 300px;
-    height: 320px;
+    height: 375px;
   }
   
   .swiper-slide img {

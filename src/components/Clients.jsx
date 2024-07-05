@@ -6,7 +6,7 @@ import cli2 from "../assets/cli2.png"
 function Clients() {
   return (
     <>
-    <div style={{backgroundColor:"#C1FFF8"}} className="container-fluid p-5">
+    {/* <div style={{backgroundColor:"#C1FFF8"}} className="container-fluid p-5">
       <h2 className='fw-bolder text-center mb-5' >Clients Feedback</h2>
        <div className="row d-flex">
           <div className="col-lg-6 mt-5">
@@ -32,7 +32,7 @@ function Clients() {
   
 
        </div>
-    </div>
+    </div> */}
     </>
   )
 }

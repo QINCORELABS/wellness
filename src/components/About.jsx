@@ -1,8 +1,8 @@
 import React from 'react'
-import about1 from "../assets/about1.png"
-import about2 from "../assets/about2.png"
-import about3 from "../assets/about3.png"
-import about4 from "../assets/about4.png"
+import about1 from "../assets/about/abt1.png"
+import about2 from "../assets/about/abt2.png"
+import about3 from "../assets/about/abt3.png"
+import about4 from "../assets/about/abt4.png"
 function About() {
     return (
         <>
@@ -11,18 +11,18 @@ function About() {
                     <div className="col-lg-6">
                         <div className="row d-flex">
                             <div className="col-md-6 text-center">
-                                <img width={"90%"} className='img-fluid mb-3' src={about1} alt="" />
+                                <img width={"86%"} className='img-fluid mb-3' src={about1} alt="" />
                             </div>
                             <div className="col-md-6 text-center">
-                                <img width={"90%"} className='img-fluid mb-3' src={about2} alt="" />
+                                <img width={"86%"} className='img-fluid mb-3' src={about2} alt="" />
                             </div>
                         </div>
                         <div className="row d-flex mt-3">
                             <div className="col-md-6 text-center">
-                                <img width={"90%"} className='img-fluid mb-3' src={about4} alt="" />
+                                <img width={"86%"} className='img-fluid mb-3' src={about3} alt="" />
                             </div>
                             <div className="col-md-6 text-center">
-                                <img width={"90%"} className='img-fluid mb-4' src={about3} alt="" />
+                                <img width={"86%"} className='img-fluid mb-4' src={about4} alt="" />
                             </div>
                         </div>
                        
