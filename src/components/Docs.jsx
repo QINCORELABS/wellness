@@ -8,28 +8,40 @@ import { EffectCoverflow, Pagination,Autoplay } from 'swiper/modules';
 import doc1 from "../assets/Doctors/doc1.png"
 import doc2 from "../assets/Doctors/doc2.png"
 import doc3 from "../assets/Doctors/doc3.png"
+import doc4 from "../assets/Doctors/doc4.png"
+import doc5 from "../assets/Doctors/doc5.png"
 
 function Docs() {
     
     const docs = [
+      {
+         name:"Rizwin Aboobacker",
+         img:doc1,
+         description:" Certified Clinical Nutritionist"
+ 
+      }, 
      {
         name:"Ashbin Philip",
-        img:doc1,
+        img:doc2,
         description:"Mental Health Counsellor (MSW in medical and psychiatry )"
      }, 
      {
         name:"Dr .Gadha",
-        img:doc2,
+        img:doc3,
         description:"Consultant Psychologist and Clinical Hypnotherapist"
  
      }, 
      {
         name:"Rhea Reez",
-        img:doc3,
+        img:doc4,
        description:"Consultant Psychologist ( MA in Clinical Psychology )"
+     } , 
+     {
+        name:"Meenakshi Jain",
+        img:doc5,
+       description:"Yoga and Face Yoga instructor"
 
- 
-     }  
+     }   
     ]
 
 

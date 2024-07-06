@@ -11,18 +11,18 @@ function About() {
                     <div className='row'>
                         <div className="col-lg-6">
                             <div className="row d-flex">
-                                <div className="col-md-6 text-center">
+                                <div className="col-6 text-center p-0">
                                     <img width={"86%"} className='img-fluid mb-3' src={about1} alt="" />
                                 </div>
-                                <div className="col-md-6 text-center">
+                                <div className="col-6 text-center p-0">
                                     <img width={"86%"} className='img-fluid mb-3' src={about2} alt="" />
                                 </div>
                             </div>
                             <div className="row d-flex mt-3">
-                                <div className="col-md-6 text-center">
+                                <div className="col-6 text-center p-0">
                                     <img width={"86%"} className='img-fluid mb-3' src={about3} alt="" />
                                 </div>
-                                <div className="col-md-6 text-center">
+                                <div className="col-6 text-center p-0">
                                     <img width={"86%"} className='img-fluid mb-4' src={about4} alt="" />
                                 </div>
                             </div>

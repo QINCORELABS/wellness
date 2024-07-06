@@ -7,7 +7,7 @@ import serv5 from "../assets/services/serv5.png"
 import serv6 from "../assets/services/serv6.png"
 import serv7 from "../assets/services/serv7.png"
 import serv8 from "../assets/services/serv8.png"
-
+import serv9 from "../assets/services/serv9.png"
 function Services() {
   return (
     <>
@@ -49,9 +49,9 @@ function Services() {
                     <div className="row">
                     
                         <div className="col-4 p-0 ms- service-box">
-                        <img src={serv6} className='img-fluid h-100' alt="" />
-                        <img src={serv8}  className='w-50 h-75 w serv-img' alt="" />
-    
+                        {/* <img src={serv6} className='img-fluid h-100' alt="" />
+                        <img src={serv8}  className='w-50 h-75 w serv-img' alt="" /> */}
+                       <img className='img-fluid' src={serv9} alt="" />
                         </div>
                         <div className="col-4 d-flex justify-content-end align-items-end p-0 ms-2">
     
