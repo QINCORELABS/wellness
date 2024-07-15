@@ -30,13 +30,13 @@ function About() {
                         </div>
     
                         <div className="col-lg-6 d-flex justify-content-center align-items-center p-4">
-                            <div>
-                                <h3 className='fw-bold'>About us</h3>
-                                <p className='fw-bold text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus imperdiet sed id elementum. Quam vel aliquam sit </p>
+                            <div className='p-2 '>
+                                <h3 className='fw-bold mb-4'>About us</h3>
+                                <p style={{textAlign:"justify"}} className='text-justify'>At Wellness Whisperer, we are dedicated to fostering mental well-being through a compassionate and personalized approach. Founded by Gadha Puthenpurakkal, a qualified consultant psychologist, our clinic in Kochi combines diverse therapeutic techniques to meet the unique needs of each client.</p>
         
-                                <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat enim pariatur hic recusandae commodi necessitatibus earum voluptatum, quis sit, doloribus nesciunt ullam. Aliquid ducimus ullam voluptatem praesentium dolor earum doloribus.</p>
+                                <p style={{textAlign:"justify"}} className='text-justify'>Our mission is to create a safe and supportive environment where individuals can embark on their journey towards mental wellness and achieve their full potential.</p>
         
-                                <p className='text-justify'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ratione voluptas temporibus corporis eaque voluptatem ullam fuga iure harum enim eum nesciunt facere, placeat minus nemo blanditiis consequatur adipisci exercitationem.</p>
+                               
                             </div>
                         </div>
     
@@ -48,3 +48,6 @@ function About() {
 }
 
 export default About
+
+
+

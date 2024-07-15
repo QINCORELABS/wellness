@@ -10,6 +10,8 @@ import doc2 from "../assets/Doctors/doc2.png"
 import doc3 from "../assets/Doctors/doc3.png"
 import doc4 from "../assets/Doctors/doc4.png"
 import doc5 from "../assets/Doctors/doc5.png"
+import doc6 from "../assets/Doctors/doc6.png"
+import doc7 from "../assets/Doctors/doc7.png"
 
 function Docs() {
     
@@ -26,22 +28,30 @@ function Docs() {
         description:"Mental Health Counsellor (MSW in medical and psychiatry )"
      }, 
      {
-        name:"Dr .Gadha",
+       name:"Rhea Reez",
         img:doc3,
-        description:"Consultant Psychologist and Clinical Hypnotherapist"
- 
+         description:"Consultant Psychologist ( MA in Clinical Psychology )"
      }, 
      {
-        name:"Rhea Reez",
-        img:doc4,
-       description:"Consultant Psychologist ( MA in Clinical Psychology )"
+      name:"Dr .Gadha",     
+      img:doc4,  
+      description:"Consultant Psychologist and Clinical Hypnotherapist"
      } , 
      {
+      name:"Dr Tehmina Asif",
+      img:doc5,
+      description:"Consultant Psychiatrist MD Psychiatry"
+     },
+     {
         name:"Meenakshi Jain",
-        img:doc5,
+        img:doc6,
        description:"Yoga and Face Yoga instructor"
-
-     }   
+     },
+     {
+      name:"Chandini Chandran",
+      img:doc7,
+     description:"Operations"
+   }    
     ]
 
 
@@ -59,7 +69,7 @@ function Docs() {
              rotate: 0,
              stretch: 0,
              depth: 100,
-             modifier: 5,
+             modifier: 0,
              slideShadows: false,
            }}
            pagination={false}
