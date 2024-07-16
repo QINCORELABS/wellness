@@ -28,25 +28,20 @@ function Services() {
                         <span style={{fontSize:"20px"}} className='fw-bolder'>Wellness Whisperer offers a wide range of mental health services to meet your needs:</span>
                    </div>
                 <div className='mb-2 '>
-                    <h6 className='fw-bold'>1.Individual Therapy</h6>
-                    <p >Personalized sessions to address various mental health concerns using Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT) and Clinical Hypnotherapy for effective mental health management.</p>
+                    
+                    <p >1.Individual Therapy:Personalized sessions to address various mental health concerns using Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT) and Clinical Hypnotherapy for effective mental health management.</p>
                 </div>
                 <div className='mb-2'> 
-                    <h6 className='fw-bold'>2.Psychiatry</h6>
-                    <p> Comprehensive psychiatric evaluations and medication management.
-		<ul>
-		   <li> Couple and Family Therapy</li>
-    		<li>Group Therapy</li>
-    		<li>Child and Adolescent Therapy</li>
-		</ul></p>
+                    
+                    <p>2.Psychiatry: Comprehensive psychiatric evaluations and medication management.</p>
+                  <p>3. Couple and Family Therapy</p>
+                  <p>4.Child and Adolescent Therapy</p>
                 </div>
                 <div className='mb-2'>
-                    <h6 className='fw-bold'>3.Internship Programs</h6>
-                    <p>Hands-on experience and professional development
+                    <h6 className='fw-bold'></h6>
+                    <p>5.Internship Programs:Hands-on experience and professional development
                     for psychology and social work students.</p>
-                    <ul>
-                        <li>Workshops and Seminars</li>
-                    </ul>
+                      <p>6.Workshops and Seminars</p>
                 </div>
                 <div> <button style={{backgroundColor:"#3DB3D1",color:"#fff"}} className='btn border rounded mt-4 p-3 ps-4 pe-4'>Book Now </button></div>
                 </div>
@@ -100,18 +95,7 @@ function Services() {
 
                 {/* new update */}
     <div className="col-lg-7">
-        {/* <div style={{height:"50%",width:"100%"}} className="row">
-              <div className="col-2 d-flex flex-column justify-content-end align-items-end">
-                <img src={service1} className='' alt="" />
-              </div>
-              <div className="col-lg-3 d-flex flex-column justify-content-end align-items-end">
-                <img width={"60%"} src={service2} alt="" />
-
-              </div>
-              <div className="col-lg-6">
-                <img className='img-fluid' height={"100%"} src={service3} alt="" />
-              </div>
-        </div> */}
+        
         <div style={{height:"50%",width:"100%"}} className="row d-flex justify-content-start align-items-end">
            <div className='p-0 d-flex justify-content-center align-items-center' style={{width:"20%"}}> <img className='img-fluid '  src={service1} alt="" /></div>
            <div className='p-0' style={{width:"30%"}}> <img className='img-fluid' src={service2} alt="" /></div>

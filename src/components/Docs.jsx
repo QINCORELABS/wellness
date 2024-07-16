@@ -82,7 +82,7 @@ function Docs() {
          >{docs.map(doc=>(
             <SwiperSlide key={doc.name}>
             <div className='d-flex flex-column align-items-center'>
-               <img className='mb-2'  style={{width:"275px"}} height={"370px"}  src={doc.img} />
+               <img className='mb-2'  style={{width:"270px"}} height={"370px"}  src={doc.img} />
               <div className='text-center p-4 pt-0 pb-0'>
                   <span className='fw-bold'>{doc.name}</span>
                   <p style={{color:"#000",fontSize:"15px"}} className=''>{doc.description}</p>
