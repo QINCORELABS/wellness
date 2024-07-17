@@ -12,9 +12,9 @@ function Intro() {
          <div style={{height:"100%"}} className="row">
           <div className="col-lg-6 d-flex flex-column justify-content-center p-3 ">
        <div className=''>
-              <h1 style={{color:"#79B142",fontSize:"60px"}} className='fw-semibold'>Empowering</h1>
-              <h1 style={{color:"#007BCD",fontSize:"60px"}} className='fw-semibold'>Minds,</h1>
-              <h1 style={{color:"#79B142",fontSize:"60px"}} className='fw-semibold'>Transforming Lives</h1>
+              <h1 style={{color:"#79B142",fontSize:"55px"}} className='fw-semibold'>Empowering</h1>
+              <h1 style={{color:"#007BCD",fontSize:"55px"}} className='fw-semibold'>Minds,</h1>
+              <h1 style={{color:"#79B142",fontSize:"55px"}} className='fw-semibold'>Transforming Lives</h1>
              <div> <button style={{backgroundColor:"#3DB3D1",color:"#fff"}} className='btn border rounded mt-4 p-3 ps-4 pe-4'>Book Now </button></div>
             </div>
        </div>
