@@ -18,9 +18,9 @@ function Footer() {
                   <div className=''>
                 <h6 className='text-light ms-2'>Our Social Channel</h6>
                 <div style={{fontSize:"35px"}} className="d-flex gap-4 p-2 ">
-                  <a style={{textDecoration:"none",color:"#fff"}}  href=""><i class="fa-brands fa-facebook"></i></a>
-                  <a style={{textDecoration:"none",color:"#fff"}} href=""><i class="fa-brands fa-instagram fa-solid"></i></a>
-                  <a style={{textDecoration:"none",color:"#fff"}} href=""><i class="fa-brands fa-linkedin"></i></a>
+                  <a target='_blank' style={{textDecoration:"none",color:"#fff"}}  href="https://m.facebook.com/profile.php?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                  <a target='_blank' style={{textDecoration:"none",color:"#fff"}} href="https://www.instagram.com/thewellness.whisperer?igsh=ZzZxbXhoaDVraXc2&utm_source=qr"><i class="fa-brands fa-instagram fa-solid"></i></a>
+                  <a target='_blank' style={{textDecoration:"none",color:"#fff"}} href="https://www.linkedin.com/in/gadhap?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
               </div>
               </div>
