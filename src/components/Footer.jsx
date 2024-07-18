@@ -62,7 +62,7 @@ function Footer() {
     <hr className='mb-1' style={{color:"#fff",fontSize:"5px"}} />
     <div style={{color:"#fff",fontSize:"10px"}} className="container d-flex justify-content-between align-items-center p-2">
       <span>© 2024 wellness whisperer Inc. All rights reserved.</span>
-      <span>Designed & Developed by Qincore Labs</span>
+      <a href='https://www.qincore.in/' style={{textDecoration:"none",color:"#fff"}} target='_blank'><span>Designed & Developed by Qincore Labs</span></a>
     </div>
     </div>
  
