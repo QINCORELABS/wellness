@@ -33,12 +33,12 @@ function Docs() {
          description:"Consultant Psychologist ( MA in Clinical Psychology )"
      }, 
      {
-      name:"Dr .Gadha",     
+      name:"Gadha Puthenpurakkal",     
       img:doc4,  
       description:"Consultant Psychologist and Clinical Hypnotherapist"
      } , 
      {
-      name:"Dr Tehmina Asif",
+      name:"Tehmina Asif",
       img:doc5,
       description:"Consultant Psychiatrist MD Psychiatry"
      },

@@ -15,7 +15,7 @@ function Intro() {
               <h1 style={{color:"#79B142",fontSize:"55px"}} className='fw-semibold'>Empowering</h1>
               <h1 style={{color:"#007BCD",fontSize:"55px"}} className='fw-semibold'>Minds,</h1>
               <h1 style={{color:"#79B142",fontSize:"55px"}} className='fw-semibold'>Transforming Lives</h1>
-             <div> <button style={{backgroundColor:"#3DB3D1",color:"#fff"}} className='btn border rounded mt-4 p-3 ps-4 pe-4'>Book Now </button></div>
+             <div> <a href='#book'><button style={{backgroundColor:"#3DB3D1",color:"#fff"}} className='btn border rounded mt-4 p-3 ps-4 pe-4'>Book Now </button></a></div>
             </div>
        </div>
           {/* <div className="col-lg-6 d-flex justify-content-center align-items-center p-3">
@@ -43,7 +43,7 @@ function Intro() {
                 <div className='img-box2'  style={{position:"relative"}}>
                   <img src={doc2} className='img-fluid' alt="" />
                   <div className='docName2 p-1 d-flex flex-column justify-content-center align-items-center' style={{backgroundColor:"#F4F4F4"}}>
-                   <h6 className='t ms-1 mt-1'>Dr Tehmina Asif</h6>
+                   <h6 className='t ms-1 mt-1'>Tehmina Asif</h6>
                   </div>
                 </div>
               </div>

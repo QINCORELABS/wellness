@@ -43,7 +43,7 @@ function Services() {
                     for psychology and social work students.</p>
                       <p>6.Workshops and Seminars</p>
                 </div>
-                <div> <button style={{backgroundColor:"#3DB3D1",color:"#fff"}} className='btn border rounded mt-4 p-3 ps-4 pe-4'>Book Now </button></div>
+                <div> <a href='#book'><button style={{backgroundColor:"#3DB3D1",color:"#fff"}} className='btn border rounded mt-4 p-3 ps-4 pe-4'>Book Now </button></a></div>
                 </div>
 
                 {/* previous version */}

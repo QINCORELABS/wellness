@@ -41,14 +41,14 @@ function Footer() {
                   <p><span className='fw-bolder'>1.Kaloor:</span> Our main branch offering a full range of services in a central and easily accessible location.</p>
                      <p>Alpha ENT Head & Neck ResearcInstitute,Opp. BSNL Microwave Station, Deshabhimani Road,Kaloor P.O,
                      Kochi - 682017</p>
-                     <button className='btn btn-light rounded p-2 fw-semibold mb-3' ><img width={"25px"} className='me-1 img-fluid' src={arrow} alt=""/>Get Direction</button>
+                   <a href='https://maps.app.goo.gl/2ez4YyxqPPn58RWWA' target='_blank'>  <button className='btn btn-light rounded p-2 fw-semibold mb-3' ><img width={"25px"} className='me-1 img-fluid' src={arrow} alt=""/>Get Direction</button></a>
                      <p><span className='fw-bolder'>2.Fort Kochi:</span> Our newly opened branch providing the same exceptional care in a serene and historic setting.
                      </p>
                      
                      <p>Alpha LifeKlin Polyclinic, Opp. Chullickal Corp. Library,
                      Moulana Azad Road, Thoppumpady P.O Kochi - 682005</p>
 
-                     <button className='btn btn-light rounded p-2 fw-semibold mb-3' ><img width={"25px"} className='me-1 img-fluid' src={arrow} alt=""/>Get Direction</button>
+                    <a href='https://maps.app.goo.gl/5YXqH5JxTYGphGSU9' target='_blank'> <button className='btn btn-light rounded p-2 fw-semibold mb-3' ><img width={"25px"} className='me-1 img-fluid' src={arrow} alt=""/>Get Direction</button></a>
                  </div>
                </div>
                   <p><i class="fa-solid fa-phone me-3"></i>+91 8075635483</p>
