@@ -29,7 +29,7 @@ function About() {
                            
                         </div>
     
-                        <div className="col-lg-6 d-flex justify-content-center align-items-center p-4">
+                        <div className="col-lg-6 d-flex justify-content-center align-items-center p-lg-4">
                             <div className='p- '>
                                 <h3 className='fw-bold mb-4'>About us</h3>
                                 <p style={{textAlign:"justify",fontSize:"15px"}} className='text-justify'>At Wellness Whisperer, we are dedicated to fostering mental well-being through a compassionate and personalized approach. Founded by Gadha Puthenpurakkal, the heart and soul behind Wellness Whisperer, a qualified consultant psychologist with a deep commitment to mental health, she has helped countless individuals navigate their challenges and find paths to healing. Her approach is grounded in empathy, evidence-based practices, and a genuine desire to make a positive impact on the lives of her clients.</p>

@@ -7,9 +7,9 @@ function Footer() {
     <div id='contact' style={{backgroundColor:"#2D90C0"}} className="container-fluid p-0">
        <div className='container'>
           <div className="row">
-              <div className="col-lg-4 d-flex flex-column justify-content-between mt-5">
+              <div className="col-lg-4 d-flex p-4 flex-column justify-content-between mt-5">
                 <div>
-                    <div className="d-flex gap-3 align-items-center mb-3">
+                    <div className="d-flex gap-3 align-items-center  mb-3">
                         <img src={plus} alt="" />
                         <span style={{color:"#fff"}} className='fw-semibold'>Call to Action:</span>
                     </div>

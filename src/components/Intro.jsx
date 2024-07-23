@@ -33,36 +33,43 @@ function Intro() {
             <div className='docbox1' style={{position:"absolute"}}>
                 <div className='img-box1'  style={{position:"relative"}}>
                   <img src={doc1} className='img-fluid' alt="" />
-                  <div className='docName p-1 d-flex flex-column justify-content-center align-items-center' style={{backgroundColor:"#79B142"}}>
-                   <h6 className='text-light ms-1 mt-1'>Gadha Puthenpurakkal</h6>
-                  </div>
+
+                  <h6 style={{backgroundColor:"#79B142"}} className='docName p-2 text-light  docHead'>Gadha Puthenpurakkal</h6>
+                  {/* <div className='docName p-1 d-flex flex-column justify-content-center align-items-center' style={{backgroundColor:"#79B142"}}>
+                   <h6 className='text-light ms-1 mt-1 docHead'>Gadha Puthenpurakkal</h6>
+                  </div> */}
                 </div>
             </div>
               {/* doc2 */}
               <div className='docbox2' style={{position:"absolute"}}>
                 <div className='img-box2'  style={{position:"relative"}}>
                   <img src={doc2} className='img-fluid' alt="" />
-                  <div className='docName2 p-1 d-flex flex-column justify-content-center align-items-center' style={{backgroundColor:"#F4F4F4"}}>
-                   <h6 className='t ms-1 mt-1'>Tehmina Asif</h6>
-                  </div>
+
+                  <h6 style={{backgroundColor:"#F4F4F4"}} className='docName2 p-2 ms-1 mt-1 docHead'>Tehmina Asif</h6>
+                  {/* <div className='docName2 p-1 d-flex flex-column justify-content-center align-items-center' style={{backgroundColor:"#F4F4F4"}}>
+                   <h6 className='t ms-1 mt-1 docHead'>Tehmina Asif</h6>
+                  </div> */}
                 </div>
               </div>
               {/* doc3 */}
              <div className='docbox3' style={{position:"absolute"}}>
                 <div className='img-box2'  style={{position:"relative"}}>
                   <img src={doc3} className='img-fluid' alt="" />
-                  <div className='docName3 p-1 d-flex flex-column justify-content-center align-items-center' style={{backgroundColor:"#00BCD5"}}>
-                   <h6 className='text-light p- me-1 mt-1'>Rhea Reez</h6>
-                  </div>
+                  <h6  style={{backgroundColor:"#00BCD5"}} className='docName3 p-2 text-light p- me-1 mt-1 docHead'>Rhea Reez</h6>
+                
+                  {/* <div className='docName3 p-1 d-flex flex-column justify-content-center align-items-center' style={{backgroundColor:"#00BCD5"}}>
+                   <h6 className='text-light p- me-1 mt-1 docHead'>Rhea Reez</h6>
+                  </div> */}
                 </div>
              </div>
               {/* doc4 */}
              <div className='docbox4' style={{position:"absolute"}}>
                 <div className='img-box1'  style={{position:"relative"}}>
                   <img src={doc4} className='img-fluid' alt="" />
-                  <div className='docName4 p-1 d-flex flex-column justify-content-center align-items-center' style={{backgroundColor:"#C1FFF8"}}>
-                   <h6 className=' me-1 mt-1'>Ashbin Philip</h6>
-                  </div>
+                  <h6 style={{backgroundColor:"#C1FFF8"}} className='docName4 p-2 me-1 mt-1 docHead'>Ashbin Philip</h6>
+                  {/* <div className='docName4 p- d-flex flex-column justify-content-center align-items-center' style={{backgroundColor:"#C1FFF8"}}>
+                   <h6 className=' me-1 mt-1 docHead'>Ashbin Philip</h6>
+                  </div> */}
                 </div>
              </div>
 </div>

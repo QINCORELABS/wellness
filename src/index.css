@@ -64,7 +64,7 @@ transform: translateX(-50%);
 .docName{
   position: absolute;
  top:50%;
- left: -85%;
+ left: -88%;
  transform: translateY(-50%);
 }  
 .docName2{
@@ -75,14 +75,14 @@ transform: translateX(-50%);
 }
 .docName3{
   position: absolute;
-  top:50%;
-  right: -30%;
+  top:46%;
+  right: -44%;
   transform: translateY(-50%);
 }
 .docName4{
   position: absolute;
   top:55%;
-  right: -50%;
+  right: -63%;
   transform: translateY(-50%);
 }
 .docbox1{
@@ -138,17 +138,28 @@ body{
   margin-bottom: 10px;
   }
   .img-box1{
-    width: 180px;
-    height: 200px;
+    width: 150px;
+    height: 170px;
   }
   .img-box2{
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
   }
   .docName{
     position: absolute;
    top:55%;
-   left: -90%;
+   left: -100%;
    transform: translateY(-50%);
   }  
+  .docHead{
+    font-size: 15px;
+  }
+  /* .service-img{
+    height: 50%;
+    width: 100%; 
+  } */
+   .serv-box{
+    display: none;
+   }
+ 
 }

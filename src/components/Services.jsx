@@ -46,63 +46,17 @@ function Services() {
                 <div> <a href='#book'><button style={{backgroundColor:"#3DB3D1",color:"#fff"}} className='btn border rounded mt-4 p-3 ps-4 pe-4'>Book Now </button></a></div>
                 </div>
 
-                {/* previous version */}
-                {/* <div className="col-lg 4 me-2">
-                    <div className="row mb-3">
-                        <div className="col-4 p-0"></div>
-                        <div className="col-4 d-flex justify-content-end align-items-end p-1">
-    
-                        <img  className='img-fluid' src={serv1} alt="" />
-                       
-                        </div>
-                        <div className="col-4 p-1 service-box">
-    
-                         <img src={serv2} className='img-fluid h-100' alt="" />
-                         <img src={serv3} className='img-fluid h-75 serv-img' alt="" />
-                        
-                        </div>
-                       
-                    </div>
-                    <div className="row">
-                        <div className='col-12 p-0'><img className='img-fluid mb-3' src={serv4} alt="" /></div>
-                    </div>
-                </div> */}
-                {/* <div className="col-lg-3">
-                    <div className="row mb-3 ">
-                        <div className='col-12 p-0 ms-'><img className='img-fluid' src={serv5} alt="" /></div>
-                    </div>
-                    <div className="row">
-                    
-                        <div className="col-4 p-0 ms- service-box">
-                      
-                       <img className='img-fluid' src={serv9} alt="" />
-                        </div>
-                        <div className="col-4 d-flex justify-content-end align-items-end p-0 ms-2">
-    
-                        <img  className='img-fluid' src={serv7} alt="" />
-                       
-                        </div>
-                        <div className="col-4 p-1">
-    
-                      
-                        
-                        </div>
-                       
-                    
-                    </div>
-                    
-                </div> */}
-
+               
                 {/* new update */}
-    <div className="col-lg-7">
+    {/* <div className="col-lg-7">
         
-        <div style={{height:"50%",width:"100%"}} className="row d-flex justify-content-start align-items-end">
-           <div className='p-0 d-flex justify-content-center align-items-center' style={{width:"20%"}}> <img className='img-fluid '  src={service1} alt="" /></div>
-           <div className='p-0' style={{width:"30%"}}> <img className='img-fluid' src={service2} alt="" /></div>
-           <div className='p-0' style={{width:"50%"}}> <img className='img-fluid' src={service3} alt="" /></div>
+        <div style={{height:"50%",width:"100%"}} className="row  align-items-end">
+           <div className='p-0 d-flex col-2 justify-content-center align-items-center' style={{width:"20%"}}> <img className='img-fluid '  src={service1} alt="" /></div>
+           <div className='p-0 col-lg-4' style={{width:"30%"}}> <img className='img-fluid' src={service2} alt="" /></div>
+           <div className='p-0 col-lg-6' style={{width:"50%"}}> <img className='img-fluid' src={service3} alt="" /></div>
         </div>
 
-        <div style={{height:"50%",width:"100%"}} className="row d-flex justify-content-end  mt-5">
+        <div style={{height:"50%",width:"100%"}} className="row d-flex justify-content-end  mt-3">
             <div style={{width:"20%"}} className='p-0 me-3'>
                 <img src={service4} className='img-fluid' alt="" />
             </div>
@@ -113,6 +67,36 @@ function Services() {
                 <img src={service6} className='img-fluid' alt="" />
             </div>
         </div>
+    </div> */}
+
+    <div className="col-lg-7">
+       
+       <div className="row mt-3 overflow-hidden" style={{height:"50%",width:"100%"}}>
+      <div className='col-lg-6 align-items-end d-flex p-0 justify-content-end'>
+            
+                <img src={service1} width={"30%"} className='img-flui me-2' alt="" />
+            
+          
+                <img src={service2} width={"60%"} className='img-flui' alt="" />
+            
+      </div>
+        <div className="col-lg-6 align-items-end d-flex p-0">
+            <img src={service3}  className='img-fluid h-sm-50' alt="" />
+        </div>
+       </div>
+          
+
+       <div className="row mt-4" style={{height:"50%",width:"100%"}} >
+        <div className="col-6 d-lg-flex d-none serv-box d-flex justify-content-end align-items-start p-0">
+        <img width={"50%"} className='service-img' src={service4} alt="" />
+        </div>
+       
+         <div className='col-lg-6 d-flex justify-content-start align-items-start '>
+             <img src={service5} className='me-2' style={{width:"83%"}} alt="" />
+             <img src={service6} width={"20%"} alt="" />
+         </div>
+      </div>   
+
     </div>
                
             </div>
