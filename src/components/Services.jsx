@@ -29,19 +29,19 @@ function Services() {
                    </div>
                 <div className='mb-2 '>
                     
-                    <p >1.Individual Therapy:Personalized sessions to address various mental health concerns using Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT) and Clinical Hypnotherapy for effective mental health management.</p>
+                    <p ><span className='fw-semibold'>1.Individual Therapy: </span>Personalized sessions to address various mental health concerns using Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT) and Clinical Hypnotherapy for effective mental health management.</p>
                 </div>
                 <div className='mb-2'> 
                     
-                    <p>2.Psychiatry: Comprehensive psychiatric evaluations and medication management.</p>
-                  <p>3. Couple and Family Therapy</p>
-                  <p>4.Child and Adolescent Therapy</p>
+                    <p><span className='fw-semibold'>2.Psychiatry: </span>Comprehensive psychiatric evaluations and medication management.</p>
+                  <p className='fw-semibold'>3. Couple and Family Therapy</p>
+                  <p className='fw-semibold'>4.Child and Adolescent Therapy</p>
                 </div>
                 <div className='mb-2'>
                     <h6 className='fw-bold'></h6>
-                    <p>5.Internship Programs:Hands-on experience and professional development
+                    <p><sapn className='fw-semibold'>5.Internship Programs: </sapn>Hands-on experience and professional development
                     for psychology and social work students.</p>
-                      <p>6.Workshops and Seminars</p>
+                      <p className='fw-semibold'>6.Workshops and Seminars</p>
                 </div>
                 <div> <a href='#book'><button style={{backgroundColor:"#3DB3D1",color:"#fff"}} className='btn border rounded mt-4 p-3 ps-4 pe-4'>Book Now </button></a></div>
                 </div>

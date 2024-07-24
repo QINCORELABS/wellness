@@ -16,7 +16,7 @@ const data = {
   user_id: public_id,
   template_params: {
     from_subject:formData.subject,
-    to_name:"Dr",
+    to_name:"Team",
     from_name:formData.name,
     from_email:formData.email,
     message:formData.msg
