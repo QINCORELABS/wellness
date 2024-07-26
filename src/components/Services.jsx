@@ -13,7 +13,7 @@ import service1 from "../assets/services/new/service1.png"
 import service2 from "../assets/services/new/service2.png"
 import service3 from "../assets/services/new/service3.png"
 import service4 from "../assets/services/new/service4.png"
-import service5 from "../assets/services/new/service5.png"
+import service5 from "../assets/services/new/service5.jpeg"
 import service6 from "../assets/services/new/service6.png"
 function Services() {
   return (
@@ -86,13 +86,13 @@ function Services() {
        </div>
           
 
-       <div className="row mt-4" style={{height:"50%",width:"100%"}} >
+       <div className="row mt-4 overflow-hidden" style={{height:"45%",width:"100%"}} >
         <div className="col-6 d-lg-flex d-none serv-box d-flex justify-content-end align-items-start p-0">
         <img width={"50%"} className='service-img' src={service4} alt="" />
         </div>
        
          <div className='col-lg-6 d-flex justify-content-start align-items-start '>
-             <img src={service5} className='me-2' style={{width:"83%"}} alt="" />
+             <img src={service5} className='me-2' style={{width:"80%"}} alt="" />
              <img src={service6} width={"20%"} alt="" />
          </div>
       </div>   

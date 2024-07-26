@@ -35,7 +35,7 @@ function Intro() {
                 <div className='img-box2'  style={{position:"relative"}}>
                   <img src={doc2} className='img-fluid' alt="" />
 
-                  <h6 style={{backgroundColor:"#F4F4F4"}} className='docName2 p-2 ms-1 mt-1 docHead'>Tehmina Asif</h6>
+                  <h6 style={{backgroundColor:"#F4F4F4"}} className='docName2 p-2 ms-1 mt-1 docHead'>Dr Tehmina Asif</h6>
                 
                 </div>
               </div>

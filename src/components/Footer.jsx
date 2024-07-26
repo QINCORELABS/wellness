@@ -38,11 +38,11 @@ function Footer() {
                <div className='d-flex'>
                <i class="fa-solid fa-location-dot me-3 p-1"></i>
                  <div>
-                  <p><span className='fw-bolder'>1.Kaloor:</span> Our main branch offering a full range of services in a central and easily accessible location.</p>
+                  <p><span className='fw-bolder'>Kaloor:</span> Our main branch offering a full range of services in a central and easily accessible location.</p>
                      <p>Alpha ENT Head & Neck ResearcInstitute,Opp. BSNL Microwave Station, Deshabhimani Road,Kaloor P.O,
                      Kochi - 682017</p>
                    <a href='https://maps.app.goo.gl/2ez4YyxqPPn58RWWA' target='_blank'>  <button className='btn btn-light rounded p-2 fw-semibold mb-3' ><img width={"25px"} className='me-1 img-fluid' src={arrow} alt=""/>Get Direction</button></a>
-                     <p><span className='fw-bolder'>2.Fort Kochi:</span> Our newly opened branch providing the same exceptional care in a serene and historic setting.
+                     <p><span className='fw-bolder'>Fort Kochi:</span> Our newly opened branch providing the same exceptional care in a serene and historic setting.
                      </p>
                      
                      <p>Alpha LifeKlin Polyclinic, Opp. Chullickal Corp. Library,
@@ -51,8 +51,9 @@ function Footer() {
                     <a href='https://maps.app.goo.gl/5YXqH5JxTYGphGSU9' target='_blank'> <button className='btn btn-light rounded p-2 fw-semibold mb-3' ><img width={"25px"} className='me-1 img-fluid' src={arrow} alt=""/>Get Direction</button></a>
                  </div>
                </div>
-                  <p><i class="fa-solid fa-phone me-3"></i>+91 8075635483</p>
-               <p>   <i class="fa-regular fa-envelope me-3"></i>Wellnesswhisp@gmail.com</p>
+                  <p className='mb-01'><i class="fa-solid fa-phone me-3"></i>+91 8075635483</p>
+                  <a style={{textDecoration:"none",color:"#fff ",fontSize:"16px"}} target='_blank' href='https://wa.me/918075635483'><i class="fa-brands fa-whatsapp fa-solid me-3"></i> Whatsapp Us (Click Here)</a>
+               <p className='mt-2'><i class="fa-regular fa-envelope fa-solid me-3"></i>Wellnesswhisp@gmail.com</p>
              </div>
               </div>
           </div>

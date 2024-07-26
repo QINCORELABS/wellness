@@ -38,7 +38,7 @@ function Docs() {
       description:"Consultant Psychologist and Clinical Hypnotherapist"
      } , 
      {
-      name:"Tehmina Asif",
+      name:"Dr Tehmina Asif",
       img:doc5,
       description:"Consultant Psychiatrist MD Psychiatry"
      },
