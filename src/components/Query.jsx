@@ -60,9 +60,9 @@ const handleSubmit=async()=>{
                       <h1 className='mb-4'>Quick Enquiry</h1>
                       <input value={formData.name} onChange={(e)=>setFromData({...formData,name:e.target.value})} type="text" className='p-2 w-100 border-black border-2 border-top-0 border-end-0 border-start-0 mb-2 bg-transparent' placeholder='Your Name' />
                       <input value={formData.email} onChange={(e)=>setFromData({...formData,email:e.target.value})} type="email" className='p-2 w-100 border-black border-2 border-top-0 border-end-0 border-start-0 mb-2 bg-transparent' placeholder='Email Address' />
-                      <input value={formData.subject} onChange={(e)=>setFromData({...formData,subject:e.target.value})} type="text" className='p-2 w-100 border-black border-2 border-top-0 border-end-0 border-start-0 mb-3 bg-transparent' placeholder='subject' />
-                      <textarea value={formData.msg} onChange={(e)=>setFromData({...formData,msg:e.target.value})} type="text-area" className='p-2 w-100 border-black border-1  mb-3 bg-transparent' placeholder='your messege' row="5" />
-                      <button style={{backgroundColor:"#2D90C0",color:"#fff"}} onClick={handleSubmit} className='btn fw-semibold w-100 '>submit</button>
+                      <input value={formData.subject} onChange={(e)=>setFromData({...formData,subject:e.target.value})} type="text" className='p-2 w-100 border-black border-2 border-top-0 border-end-0 border-start-0 mb-3 bg-transparent' placeholder='Subject' />
+                      <textarea value={formData.msg} onChange={(e)=>setFromData({...formData,msg:e.target.value})} type="text-area" className='p-2 w-100 border-black border-1  mb-3 bg-transparent' placeholder='Your messege' row="5" />
+                      <button style={{backgroundColor:"#2D90C0",color:"#fff"}} onClick={handleSubmit} className='btn fw-semibold w-100 '>Submit</button>
                       </div>
               </div>
           </div>

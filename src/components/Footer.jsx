@@ -8,31 +8,33 @@ function Footer() {
        <div className='container'>
           <div className="row">
               <div className="col-lg-4 d-flex p-4 flex-column justify-content-between mt-5">
-                <div>
-                    <div className="d-flex gap-3 align-items-center  mb-3">
+                <div className='callTo'>
+                    <div className="d-flex  gap-3 align-items-center  mb-3">
                         <img src={plus} alt="" />
                         <span style={{color:"#fff"}} className='fw-semibold'>Call to Action:</span>
                     </div>
                     <p style={{textAlign:"justify",color:"#fff"}}>Ready to start your journey towards mental wellness? Book your appointment with Wellness Whisperer today and take the first step towards a healthier, happier you.</p>
                 </div>
-                  <div className=''>
-                <h6 className='text-light ms-2'>Our Social Channel</h6>
-                <div style={{fontSize:"35px"}} className="d-flex gap-4 p-2 ">
-                  <a target='_blank' style={{textDecoration:"none",color:"#fff"}}  href="https://m.facebook.com/profile.php?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
-                  <a target='_blank' style={{textDecoration:"none",color:"#fff"}} href="https://www.instagram.com/thewellness.whisperer?igsh=ZzZxbXhoaDVraXc2&utm_source=qr"><i class="fa-brands fa-instagram fa-solid"></i></a>
-                  <a target='_blank' style={{textDecoration:"none",color:"#fff"}} href="https://www.linkedin.com/in/gadhap?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+             
+                    <div className='social'>
+                  <h6 className='text-light ms-2 social-icons'>Our Social Channel</h6>
+                  <div style={{fontSize:"35px"}} className="d-flex gap-4 p-2 social-icons align-items-centerd">
+                    <a target='_blank' style={{textDecoration:"none",color:"#fff"}}  href="https://m.facebook.com/profile.php?mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                    <a target='_blank' style={{textDecoration:"none",color:"#fff"}} href="https://www.instagram.com/thewellness.whisperer?igsh=ZzZxbXhoaDVraXc2&utm_source=qr"><i class="fa-brands fa-instagram fa-solid"></i></a>
+                    <a target='_blank' style={{textDecoration:"none",color:"#fff"}} href="https://www.linkedin.com/in/gadhap?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
                 </div>
-              </div>
+             
               </div>
              
-              <div className="col-lg-4 d-flex flex-column align-items-center text-light mt-5">
+              <div className="col-lg-4 d-md-flex flex-column align-items-center text-light mt-5 quick">
               <span style={{color:"#fff"}} className='mb-4 mt-4 fw-semibold'>Quick Menu</span>
               <a href="#intro-section" className='mb-1' style={{textDecoration:"none",color:"#fff"}}> Home</a>
               <a href="#about" className='mb-1' style={{textDecoration:"none",color:"#fff"}}> About</a>
               <a href="#team" className='mb-1' style={{textDecoration:"none",color:"#fff"}}> Our Team</a>
               <a href="#book" style={{textDecoration:"none",color:"#fff"}}> Booking</a>
               </div>
-              <div className="col-lg-4 d-flex flex-column align-items-center mt-5">
+              <div className="col-lg-4 d-flex flex-column align-items-center mt-md-5">
               <span style={{color:"#fff"}} className='mb-4 mt-4 fw-semibold'>Contact Us</span>
              <div className='flex flex-column text-light align-items-center '>
                <div className='d-flex'>

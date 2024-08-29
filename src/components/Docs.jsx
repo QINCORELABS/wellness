@@ -58,7 +58,7 @@ function Docs() {
 
   return (
     <>
-     <div id='team' className='d-flex flex-column justify-content-center align-items-center mb-3 p-5'>
+     <div id='team' className='d-flex flex-column justify-content-center align-items-center mb-3 p- pt-sm-0'>
      <h2 className='mb-3 text-center fw-bold'>Our Team Members </h2>
          <Swiper
            effect={'coverflow'}

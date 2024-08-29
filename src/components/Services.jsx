@@ -18,7 +18,7 @@ import service6 from "../assets/services/new/service6.png"
 function Services() {
   return (
     <>
-    <div className="container-fluid p-5">
+    <div className="container-fluid pt-5 pe-5 ps-5 pb-md-5">
         
             <div className="row ">
                 <div className="col-lg-5  d-flex flex-column ">
